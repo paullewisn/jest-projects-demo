@@ -1,0 +1,25 @@
+{
+  "name": "jest-projects-demo",
+  "version": "1.0.0",
+  "description": "Basic app demonstrating Jest's Project feature",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --projects **/src/** **/lib/**",
+    "test:apple": "jest --projects **/src/apple",
+    "test:banana": "jest --projects **/src/banana",
+    "test:broccoli": "jest --projects **/lib/broccoli",
+    "test:carrot": "jest --projects **/lib/carrot",
+    "test:lib": "jest --projects **/lib/**",
+    "test:src": "jest --projects **/src/**"
+  },
+  "repository": "git+https://github.com/paullewisn/jest-projects-demo.git",
+  "author": "Paul-Lewis Nunn",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/paullewisn/jest-projects-demo/issues"
+  },
+  "homepage": "https://github.com/paullewisn/jest-projects-demo#readme",
+  "dependencies": {
+    "jest": "26.6.3"
+  }
+}
